@@ -1,0 +1,51 @@
+.about-page {
+    display: grid;
+
+}
+
+.about-content {
+    grid-column: 1 / 6;
+}
+
+.about-sidebar {
+    grid-column: 6 / 7;
+    background-color: var(--light-color);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.about-sidebar img {
+    max-width: 160px;
+    height: auto;
+    border-radius: 50px;
+    margin: auto;
+}
+
+.about-sidebar li{
+    list-style-type: none;
+    padding: 5px;
+    margin: 5px;
+    border: 2px #000 solid;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.about-sidebar a {
+    color: #000;
+    text-decoration: none;
+}
+
+.about-sidebar li:hover{
+    transform: scale(0.98);
+    cursor: pointer;
+}
+
+.active-about {
+    background-color: var(--dark-color);
+}
+
+.active-about a {
+    color: var(--extra-light-color);
+}
+
+ 
